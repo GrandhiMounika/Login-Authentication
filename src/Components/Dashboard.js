@@ -40,7 +40,7 @@ class Dashboard extends Component {
       <Card className="cards">
       <CardHeader title="Lloyds"/>
       <CardMedia className="media">
-      <img src={Lloyds}/>
+      <img src={Lloyds} alt="Not Found"/>
       </CardMedia>
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
@@ -53,7 +53,7 @@ class Dashboard extends Component {
     <Card className="cards">
       <CardHeader title="BOS"/>
       <CardMedia className="media">
-      <img src={BOS}/>
+      <img src={BOS} alt="Not Found"/>
       </CardMedia>
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
@@ -67,7 +67,7 @@ class Dashboard extends Component {
     <Card className="cards">
       <CardHeader title="Halifax"/>
       <CardMedia className="media">
-      <img src={Halifax}/>
+      <img src={Halifax} alt="Not Found"/>
       </CardMedia>
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
