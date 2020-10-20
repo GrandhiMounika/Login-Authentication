@@ -18,7 +18,7 @@ class Login extends Component {
       if(this.state.username==="mounika" && this.state.password==="1234")
       {
         this.setState({isValidate:1});
-        this.props.history.push("/dashboard")
+        this.props.history.push('/dashboard')
       }
       else if(this.state.username && !this.state.password)
         alert("Please enter password")
@@ -31,7 +31,7 @@ class Login extends Component {
     }
     render() {
         return (
-            <div className='llyods' style={{ width: '100%', height: '100vh'}}>
+            <div className='lloyds' style={{ width: '100%', height: '100vh'}}>
         <div className='login container-fluid'>
         <div className='bank'>
             <b>Lloyds Banking Group</b>
@@ -44,9 +44,9 @@ class Login extends Component {
                 <div className='login_heading'>
                   <b>User Login Page</b>
                 </div>
-                <input type='text' className='field_outline' style={{ marginTop: '28px' }}
+                <input type='text' className='fieldoutline' style={{ marginTop: '28px' }}
                   placeholder='User Name' name="username" id="username" value={this.state.username} onChange={this.handleChange}/>
-                <input type='password' className='field_outline' style={{ marginTop: '13.9px' }}
+                <input type='password' className='fieldoutline' style={{ marginTop: '13.9px' }}
                   placeholder='Password' name="password" id="password" value={this.state.password} onChange={this.handleChange}/>
                 <div className='button_bg' style={{
                   display: 'flex', alignItems: 'center',

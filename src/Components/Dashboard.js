@@ -31,7 +31,7 @@ class Dashboard extends Component {
       return (
           <div className="dashboard">
           <AppBar position="static">
-        <Toolbar> 
+        <Toolbar className="icon"> 
           <ExitToAppIcon onClick={this.handleLogout}/>
         </Toolbar>
       </AppBar>
@@ -43,7 +43,7 @@ class Dashboard extends Component {
       <img src={Lloyds} alt="Not Found"/>
       </CardMedia>
       <CardContent>
-        <Typography variant="body2" color="textSecondary" component="p">
+        <Typography>
         Lloyds Banking Group plc is a major British financial institution formed through the acquisition of HBOS by Lloyds TSB in 2009. The Group's history stems from the founding in 1695 by the Parliament of Scotland of the Bank of Scotland, which is the fifth oldest bank in the United Kingdom.Its headquarters for business in the European Union is in Berlin. 
         </Typography>
       </CardContent>
@@ -56,7 +56,7 @@ class Dashboard extends Component {
       <img src={BOS} alt="Not Found"/>
       </CardMedia>
       <CardContent>
-        <Typography variant="body2" color="textSecondary" component="p">
+        <Typography>
         BoS Ia also a wholly owned subsidiary of LBG and similarly engages In fund management activities on behalf of
         a renge of Internal and external clients Including LBG's retan life, pensions and Investment products.Today, Bank of Scotland proudly continues to support the people, businesses and communities of Scotland.
         </Typography>
@@ -70,7 +70,7 @@ class Dashboard extends Component {
       <img src={Halifax} alt="Not Found"/>
       </CardMedia>
       <CardContent>
-        <Typography variant="body2" color="textSecondary" component="p">
+        <Typography>
         Founded in 1852, the Halifax is one of the UK's best known companies.
         It has enjoyed phenomenal growth over the course of its 160-year history. In the latter years of the 20th century, it made a number of notable acquisitions. These included the Leeds Permanent, Clerical Medical and Birmingham Midshires.It is located in UK
         </Typography>
